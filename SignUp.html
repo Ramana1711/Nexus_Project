@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>SignUp Page</title>
+	<link rel="stylesheet" type="text/css" href="SignUp.css">
+	<link rel="script" href="Form.js">
+	<script type="text/javascript" src="Form.js"></script>
+</head>
+<body>
+	<form method="post" action=" " onsubmit="validateForm()">
+		<marquee direction=left-to-right loop=""><h2>SignUp Page</h2></marquee>
+		<label>First Name </label>
+		<input type="text" id="fn" name="First Name" placeholder="First Name" required>
+		<br>
+		<br>
+		<label>Last Name </label>
+		<input type="Text" id="ln" name="Last Name" placeholder="Last Name" required>
+		<br>
+		<br>
+		<label>Email ID </label>
+		<input type="Email-Id" id="em" name="Email Id" placeholder="Email Id" required>
+		<br>
+		<br>
+		<label>Mobile Number </label>
+		<input type="Text" id="mn" name="Mobile Number" placeholder="Mobile Number" maxlength="10" required>
+		<br>
+		<br>
+		<label>Select Gender </label>
+		<br>
+		<br>
+		<label>Male </label>
+		<input type="radio" name="Select Gender" value="Male">
+		<br>
+		<br>
+		<label>Female </label>
+		<input type="radio" name="Select Gender" value="Female">
+		<br>
+		<br>
+		<label>Others </label>
+		<input type="radio" name="Select Gender" value="Others">
+		<br>
+		<br>
+		<label>Password </label>
+		<input type="Password" id="pw" name="Password" placeholder="Password" required>
+		<br>
+		<br>
+		<label>Confirm Password</label>
+		<input type="Password" id="cpw" name="Confirm Password" placeholder="confirm Password" required>
+		<br>
+		<br>
+		<button type="submit">SignUp</button>
+		<p>Already registered <a href="Login.html"> Click here</a> to Join Us!!</p>
+
+	</form>
+</body>
+</html>

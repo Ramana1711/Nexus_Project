@@ -1,0 +1,58 @@
+body{
+	background: url(\rk.jpg) no-repeat;
+	background-position: initial;
+}
+h2{
+	color: #B51A2B;
+	font-family: monospace;
+	font-weight: bolder;
+	font-style: oblique;
+	font-size: 70px;
+}
+form{
+	margin: 200px;
+	padding: 10px;
+	width: 60%;
+	font-family: monospace;
+	font-weight: bolder;
+	font-style: oblique;
+	font-size: 25px;
+	color: #FBE4D8;
+	display: contents;
+}
+input{
+	font-family: sans-serif;
+	max-width: 380px;
+	width: 100%;
+	height: 55px;
+	background-color: #antiquewhite;
+	margin: 10px 0;
+	border-radius: 55px;
+	display: grid;
+	font-size: 1rem;
+}
+input::placeholder{
+	color: #aaa;
+	font-weight: 500;
+	font-family: monospace;
+	font-weight: bolder;
+	font-style: oblique;
+}
+button{
+	font-family: monospace;
+	font-weight: bolder;
+	font-style: oblique;
+	font-size: 20px;
+	color: whitesmoke;
+	background-color: burlywood;
+	text-transform: uppercase;
+	border-radius: 49px;
+	cursor: pointer;
+}
+a{
+	color: azure;
+	text-decoration: none;
+}
+a:hover{
+	color: mediumvioletred;
+}
